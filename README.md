@@ -4,12 +4,7 @@ Supported Case Types
 Case 1: Leadership Briefing
 Compresses multiple internal documents into a 2-page executive briefing
 Designed for time-critical CBO decision-making
-Case 2: The Quotation
-Generates a full commercial proposal system
-Includes:
-Excel-style pricing logic
-Customer-facing cover letter
-Internal risk memo
+
 Reusable LLM workflow
 
 
@@ -32,3 +27,4 @@ The workflow is strictly sequential:
 3. structure.txt   → organize into decision framework
 4. briefing.txt    → generate final outputs
 5. validate.txt    → enforce correctness + constraints
+   
