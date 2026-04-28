@@ -46,28 +46,4 @@ FORMAT:
 - what to avoid
 - negotiation levers
 
-========================================
-IF CASE = COMMERCIAL QUOTATION
-========================================
 
-FORMAT:
-
-1. CUSTOMER COVER LETTER STRUCTURE
-- requirements mapping
-- scenario explanation (Base/Growth/Premium)
-- value explanation
-
-2. INTERNAL NOTE STRUCTURE
-- risks
-- approval triggers
-- margin exposure (only if allowed)
-- competitor comparison
-
-3. PRICING LOGIC EXPLANATION
-- how pricing works (not internal breakdown)
-- assumptions clearly stated
-
-RULES:
-- no raw data dump
-- everything must support decision making
-- clarity > completeness
