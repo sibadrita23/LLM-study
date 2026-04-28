@@ -1,0 +1,31 @@
+Case 2 — The Quotation (Interviewer Guide)
+Take-home · 72 hours
+Prashanth A
+2026-03
+THE QUOTATION
+Hiring Case Study — Associate, AI & Knowledge Operations
+Company: NovaPlatform (fictional B2B technology platform) Duration: 72 hours Tools: Access to an LLM on the command line, business documents provided below
+Role Context
+NovaPlatform is a global B2B technology platform company operating across three markets (Alpha, Beta, Gamma). The platform orchestrates fleet management, workshop operations, parts procurement, and embedded payments for the commercial vehicle aftermarket. Revenue comes from four layers: subscription access (SaaS), usage-based API fees, transaction commissions (payments, parts), and outcome-based cost-sharing with fleet customers.
+You are interviewing for Associate, AI & Knowledge Operations — a role that sits between commercial operations and knowledge systems. You will work with pricing data, customer proposals, internal strategy documents, and LLM-assisted workflows daily.
+Scenario
+Meridian Logistics — a mid-market fleet operator running 380 medium-duty trucks across Market Alpha — has requested a quotation for deploying NovaPlatform’s integrated fleet-workshop solution. The request came as an email from their VP of Maintenance (Document 1).
+You have been given:
+The customer email (Document 1) — Meridian’s requirements, as stated
+NovaPlatform’s standard pricing template (Document 2) — Excel-compatible structured data with line items, unit costs, and volume tiers
+A previous proposal to Apex Transport (Document 3) — a different customer, different scope, different pricing
+Internal guidance on margin thresholds and discount authority (Document 4)
+What You Must Deliver
+Deliverable 1: The Quotation (Excel)
+Build a quotation workbook in Excel with: - At least 3 pricing scenarios (Base, Growth, Premium) - Live formulas — scenario selectors (IF-chains or INDEX/MATCH), volume-tier lookups, discount calculations - No hardcoded numbers in output cells — inputs feed through to totals via formulas - Summary dashboard showing total contract value, monthly costs, and margin indicators per scenario - Clear separation between input assumptions and calculated outputs
+Deliverable 2: Customer Cover Letter (1 page)
+Write a cover letter to Meridian Logistics explaining the quotation: - Address their stated requirements - Explain the scenario structure (why 3 options, what each enables) - Handle any ambiguities you found in their email - Professional but not corporate — this is a business relationship, not a legal filing
+Deliverable 3: Internal Note to Business Head (1 page)
+Write a separate note to NovaPlatform’s Business Head: - Highlight risks in this deal - Flag margin implications (where are we above/below threshold?) - Identify what needs leadership approval - Be honest — this is not a sales document
+Deliverable 4: Reusable LLM Workflow
+Build a reusable workflow (Python script, shell script, or documented prompt chain) that: - Takes a new customer’s requirements as input - Generates a draft quotation structure using the LLM - Produces a draft cover letter and internal note - Works for a different customer scenario (test it with a second fictional customer) - Includes clear instructions for someone else to run it
+Evaluation
+Your work will be assessed on: - Technical accuracy and internal consistency of numbers - Communication quality and audience awareness - Business judgment (risk identification, ambiguity handling) - Workflow design and reusability - Whether you adapted to the specific customer or copied the previous proposal
+Documents
+The following documents are provided as separate files:
+Good luck. Take the full 72 hours if you need them. We would rather see careful work than fast work.

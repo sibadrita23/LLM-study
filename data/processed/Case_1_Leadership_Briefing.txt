@@ -1,0 +1,196 @@
+Case 1 — The Leadership Briefing
+Take-home · 72 hours
+Prashanth A
+2026-03
+THE LEADERSHIP BRIEFING
+Hiring Case Study — Associate, AI & Knowledge Operations
+PART I: CANDIDATE INSTRUCTIONS
+Scenario
+You work as an Associate in the AI & Knowledge Operations team at NovaPlatform, a global managed platform services company that builds and operates digital infrastructure for commercial mobility — fleet management, logistics orchestration, asset utilisation, and connected vehicle services. NovaPlatform operates across three regions: Market Alpha (a large, fast-growing emerging economy), Market Beta (mature European markets), and Market Gamma (North America).
+It is 9:00 AM on a Tuesday. The Chief Business Officer (CBO), who oversees global strategy and growth, sends you the following message:
+I’m flying to meet the leadership team at SteelBridge Partners — one of the largest infrastructure concessionaires in Market Alpha — at 3:00 PM today. SteelBridge operates 14 highway corridors and is exploring a managed technology layer for their toll collection infrastructure. They want to understand what NovaPlatform can offer.
+I need a 2-page briefing before I board. Something I can read on the way and walk in ready.
+I’ve dumped 7 documents from our knowledge system into a shared folder — everything I could find quickly. Some of it is relevant, some of it probably isn’t.
+The briefing should cover: What is SteelBridge’s situation? What do we offer them? What are the numbers? What should I ask for in the meeting?
+Two pages. Not five.
+You have access to an LLM on the command line and 7 documents (provided below). You have until noon — 3 hours.
+Deliverables
+Primary deliverable (mandatory): A 2-page leadership briefing in PDF or DOCX format, ready for the CBO to read on the way to the meeting.
+Secondary deliverable (strongly encouraged): The prompt(s) and/or workflow you used with the LLM to produce the briefing. This can be a text file, a shell script, a markdown file — whatever form you used. We want to see how you work, not just what you produced.
+Tertiary deliverable (optional, for strong candidates): A brief note (half a page max) on what additional information you would have wanted and where you would look for it.
+Rules
+You may use any LLM available on the command line. You may use it as many times as you wish.
+You may not search the internet. The 7 documents are your only source material.
+The briefing must be exactly 2 pages — not 1.5, not 3. Format and layout are your choice.
+Every number in the briefing must come from the source documents. Do not invent figures.
+You have 3 hours from receiving these instructions. Late submissions are not accepted.
+You may ask the hiring manager one (1) clarifying question by email. Use it wisely or not at all.
+What We’re Looking For
+We will evaluate your submission on clarity of communication, accuracy of information, judgement about what to include and what to leave out, and how effectively you used the tools available to you. The CBO is a systems thinker who values precision, brevity, and intellectual honesty. Do not pad. Do not hedge with meaningless caveats. If something is uncertain, say so plainly.
+PART II: THE SEVEN DOCUMENTS
+DOCUMENT 1: Market Alpha — Managed Highway Infrastructure: Market Research Summary
+Classification: Internal Research | Date: January 2026 | Prepared by: NovaPlatform Strategy & Growth
+1.1 Market Overview
+Market Alpha operates one of the world’s largest highway networks — over 155,000 km of national highways carrying approximately 40% of total road freight. The highway infrastructure sector has undergone significant reform over the past two decades, transitioning from government-operated toll plazas to a concession-based model where private operators build, maintain, and collect tolls on designated corridors under 15–30 year contracts.
+The national highway authority (NHA) oversees policy and standards. The toll collection subsidiary (TCS) manages interoperability, standards enforcement, and the electronic toll collection ecosystem.
+Key market figures:
+1.2 The Multi-Lane Free Flow (MLFF) Transition
+Market Alpha is transitioning from barrier-based electronic toll collection (where vehicles slow to 30 km/h at a physical barrier) to multi-lane free flow (MLFF), where vehicles pass through gantry-mounted sensor arrays at highway speed with no physical barrier.
+Why MLFF matters:
+Eliminates congestion at toll plazas (average delay: 7–12 minutes per vehicle)
+Reduces toll evasion by 5–8% through multi-sensor verification (current leakage estimated at 6–9% of revenue)
+Enables per-kilometre tolling (distance-based) in future phases
+Reduces land footprint by 60–80% compared to barrier plazas
+Transition timeline:
+The concessionaire opportunity: Approximately 400 toll plazas are operated by private concessionaires who must independently procure MLFF technology. Unlike NHA-managed plazas (where TCS runs centralised procurement), concessionaires choose their own technology partners. This creates a competitive window for system integrators who can offer integrated hardware + software + settlement solutions.
+1.3 MLFF Technology Architecture
+An MLFF deployment requires five integrated technology layers:
+Typical deployment cost per plaza: $800,000–$1,200,000 (capital expenditure for sensor installation, civil works, and edge infrastructure). Ongoing platform and operations costs run $150,000–$250,000 per plaza per year.
+1.4 Concessionaire Decision Factors
+Based on conversations with four concessionaires, the following factors drive their technology partner selection:
+1.5 Market Sizing for Concessionaire Segment
+DOCUMENT 2: SteelBridge Partners — Partner Assessment
+Classification: Internal — Pre-Meeting Preparation | Date: February 2026 | Prepared by: NovaPlatform Growth & Engagement
+2.1 Company Profile
+2.2 Highway Portfolio
+2.3 Current Toll Technology
+SteelBridge currently operates barrier-based electronic toll collection across all 14 corridors using equipment from two vendors (TechRadiant and SignalPath) procured 5–8 years ago. Key characteristics:
+Electronic tag read rate: 88–92% (below national average of 94%)
+Toll leakage (estimated): 7–9% of collectible revenue ($22–$29 million annually)
+Manual exception handling: 18–22% of transactions require manual intervention
+Vendor lock-in concern: TechRadiant end-of-life for barrier equipment announced for December 2027; no MLFF upgrade path offered
+SteelBridge’s stated MLFF budget: Not disclosed; internal intelligence suggests they have allocated $12–$15 million in FY27 capex for “toll modernisation” across 5 priority corridors
+2.4 Relationship History with NovaPlatform
+2.5 Competitive Situation
+SteelBridge is known to be in parallel conversations with:
+2.6 Strategic Assessment
+SteelBridge’s decision criteria (inferred from interactions):
+Zero upfront capital — SteelBridge’s FY26 capex is committed; they want an operating-expense model
+Integrated solution — they have expressed frustration with managing 3 separate toll vendors (barrier hardware, back-office software, bank settlement) and want a single counterparty
+Revenue recovery — their 7–9% leakage is $22–$29M/year; any MLFF solution that recovers even half of this pays for itself
+Speed — their largest corridor (Lakeview–Sahapur) faces a mandatory MLFF conversion by December 2027 per regulatory notification; they need to start procurement by Q2 2026
+Reference credibility — Priya Ranganathan explicitly asked at the site visit: “How many live corridors do you have?”
+Our honest position: - We have 1 live MLFF plaza (Sector 7, Capital City) — operational since April 2026 - We have a second corridor under contract (Vantara corridor — 30 km, not yet operational) - Our sensor accuracy at Sector 7 is 99.1% (classification) and 97.8% (plate recognition) - Our bank partner (Meridian Bank) already processes SteelBridge’s electronic tag settlement on 9 of 14 corridors — this is our strongest structural advantage - Our per-vehicle pricing at Sector 7 is $0.065/vehicle all-in; SteelBridge’s weighted average ADT of ~58,000 would generate approximately $1.4 million/year per corridor
+DOCUMENT 3: NovaPlatform Pricing Framework — Managed Infrastructure Services
+Classification: Internal — Commercial Strategy | Date: December 2025 | Prepared by: NovaPlatform Commercial Architecture Team
+3.1 Pricing Philosophy
+NovaPlatform’s managed infrastructure services follow a usage-based pricing model aligned with customer economics. The core principle: the customer pays only when value is generated. In toll infrastructure, that means pricing per vehicle observation event — not per device, not per licence, not per seat.
+This model requires NovaPlatform to fund capital expenditure upfront and recover through recurring per-event fees over the contract term. The trade-off: higher customer adoption (zero capex barrier) in exchange for longer payback periods (typically 18–30 months) and working capital requirements.
+3.2 Fee Architecture — MLFF Services
+The per-vehicle fee comprises four components:
+Volume-based pricing tiers:
+3.3 Economic Model — Concessionaire Perspective
+Illustrative scenario for a single corridor:
+Leakage recovery offset:
+Key insight: At leakage rates above ~5.5%, the NovaPlatform MLFF fee pays for itself through recovered revenue. Market Alpha concessionaires with barrier-based systems typically experience 6–9% leakage.
+3.4 Contract Terms
+3.5 Internal Economics (Confidential — Do Not Share Externally)
+DOCUMENT 4: Market Alpha — Technology Governance and Compliance Framework for Managed Toll Infrastructure
+Classification: Internal Reference | Date: November 2025 | Prepared by: NovaPlatform Platform & Technology
+4.1 Regulatory Landscape
+Market Alpha’s toll infrastructure operates within a multi-layered regulatory framework. Any MLFF deployment must comply with requirements from three authorities:
+4.2 Data Retention Requirements
+MLFF generates continuous records of vehicle movements. Retention obligations vary by data type:
+4.3 Evidence Chain Standards
+Every toll transaction must produce a tamper-evident evidence package:
+Hash-chaining or digital signatures are required for evidence integrity. Evidence must be retrievable within 4 hours of request by NHA or TCS.
+4.4 Certification Requirements
+NovaPlatform’s current certification status:
+4.5 Compliance Risks for Concessionaire Deployments
+DOCUMENT 5: Competitive Landscape — Fleet Telematics in Market Gamma
+Classification: Internal Research | Date: October 2025 | Prepared by: NovaPlatform Market Gamma Strategy Team
+5.1 Market Overview
+The Market Gamma fleet telematics market is a $12.8 billion sector (2025) growing at 14% CAGR, driven by ELD mandate compliance, insurance telematics, and predictive maintenance. The market serves approximately 15.6 million commercial vehicles across three segments: long-haul trucking (3.8 million units), local/regional delivery (6.2 million), and vocational/specialty (5.6 million).
+5.2 Competitive Map
+Tier 1 — Market Leaders ($500M+ revenue)
+Tier 2 — Growth Players ($100M–$500M)
+5.3 Market Dynamics
+ELD Mandate Maturation: The Electronic Logging Device mandate (FMCSA, 2017) drove initial telematics adoption to ~85% compliance among large carriers. The market is now shifting from compliance-driven to value-driven: predictive maintenance, route optimisation, fuel management, and driver coaching.
+Video Telematics Surge: AI-powered dashcams are the fastest-growing segment — 47% YoY growth in 2025. Lytx and Samsara lead; NovaPlatform’s video telematics partnership with OptiVision (Market Alpha) does not extend to Market Gamma.
+API-First Platforms: The market is shifting from monolithic fleet management to composable platforms. Samsara and Geotab offer developer APIs; fleet operators increasingly build custom workflows on top of telematics data. NovaPlatform’s L.OS architecture is well-positioned for this trend.
+Consolidation: 14 acquisitions in the telematics space in 2025 alone. PE-backed roll-ups (Vehlo in auto repair, Platform Science in OEM-embedded) are reducing the independent player count.
+5.4 NovaPlatform’s Market Gamma Position
+NovaPlatform operates in Market Gamma through: - FleetForward (fleet management SaaS): 1,200 fleet accounts, $4.2M ARR - L.OS logistics orchestration: 24 solutions live, primarily serving mid-market logistics companies - Strategic partnership with Orion Diagnostics (Market Gamma auto repair network)
+Current focus is fleet-to-workshop integration — connecting fleet demand with repair shop capacity. This is distinct from the MLFF toll infrastructure business, which is NovaPlatform’s focus in Market Alpha.
+5.5 Revenue by Segment (Market Gamma)
+DOCUMENT 6: NovaPlatform — Organisational Realignment Memo (Q4 2025)
+Classification: Internal — HR & Leadership | Date: November 2025 | From: Chief People Officer | To: All People Managers
+Subject: Organisational Structure Update — Effective January 2026
+Following the annual strategic review and in alignment with the CBO’s direction to organise around platforms rather than geographies, the following structural changes take effect from January 1, 2026.
+6.1 From Geography-Led to Platform-Led
+The previous structure organised teams by region (Market Alpha, Market Beta, Market Gamma), each with local P&L ownership and functional leads. The new structure organises around three platform verticals with global scope:
+6.2 Key Appointments
+6.3 What Changes
+Platform P&Ls replace geography P&Ls. Anika Sharma owns the L.OS P&L globally — including toll infrastructure, fleet logistics, and freight orchestration. Market Alpha toll revenue flows through L.OS, not through a Market Alpha business unit.
+GTM remains regional. Krish Iyer (Market Alpha) and Sophia Martinez (Market Gamma) own regional customer relationships, pipeline, and deal execution. They report to the CRO with a dotted line to platform SVPs.
+Three-hat leadership model continues: every leader at VP and above is expected to develop competencies across function, business-building, and geography.
+Headcount: No net change. 3 roles in Market Beta transitioned from generalist to specialist (2 platform engineers, 1 data scientist).
+6.4 Transition Support
+Role mapping workshops completed in December 2025
+New reporting lines active from January 15, 2026
+Q1 2026 OKRs must be submitted under new structure by February 1, 2026
+Questions to your direct manager or the People Operations team
+6.5 A Note from the CBO
+The purpose of this realignment is not efficiency — it is clarity. We were running three regional businesses that happened to share a brand. Now we run three global platforms that happen to operate in different geographies. The customer does not care about our org chart. They care whether L.OS solves their logistics problem in Market Alpha the same way it does in Market Gamma. Platform-led means the product is the organising principle, not the passport of the customer.
+This is uncomfortable. Discomfort is the point. If the reorganisation felt easy, we did not change enough.
+DOCUMENT 7: SteelBridge Partners — Previous Meeting Notes (Reference Site Visit, January 2026)
+Classification: Internal — Confidential | Date: January 28, 2026 | Author: Krish Iyer, VP Market Alpha GTM
+Attendees
+Location: NovaPlatform reference site — Sector 7 MLFF Plaza, Capital City
+Meeting Summary
+Duration: 3.5 hours (scheduled for 2 hours; SteelBridge extended voluntarily)
+Tone: Engaged and detailed. Priya asked hard questions; Suresh focused on operational specifics. Neither was merely “browsing” — both came prepared with corridor-specific questions.
+Key Questions and Our Responses
+Q1 (Priya): “Your classification accuracy claim is 99%. What is it really, in bad weather, at night, with overloaded vehicles?”
+Our response: Showed live dashboard data from Sector 7. Classification accuracy over 90 days: - Daytime, clear: 99.3% - Nighttime: 98.8% - Rain: 98.1% - Fog (heavy): 96.4% - Weighted average (all conditions): 99.1%
+Priya’s follow-up: “96.4% in heavy fog means 3.6% misclassification. At 70,000 vehicles/day, that’s 2,500 vehicles/day classified wrong. What happens to those?” We explained the dual-verification system (ANPR + RFID cross-match) and the manual exception queue. She was satisfied but noted that SteelBridge’s Lakeview–Sahapur corridor gets 40+ days of heavy fog per year.
+Q2 (Suresh): “How do you handle the transition? We can’t shut a corridor to install gantries.”
+Our response: Dual-mode operation — existing barrier system continues while gantries are installed and tested. Parallel-run period of 8–12 weeks where both systems process transactions; reconciliation engine flags discrepancies. Barrier removal only after accuracy thresholds are met for 30 consecutive days.
+Suresh’s follow-up: “Can you guarantee the parallel period won’t affect our current toll revenue?” We said we guarantee no reduction in current revenue processing; the MLFF system runs in shadow mode, not production, during parallel.
+Q3 (Priya): “How many live corridors do you have?”
+Our response: One live plaza (Sector 7, Capital City — 6 gantry points, live since April 2026). One corridor under contract (Vantara corridor — 33 gantry locations across 30 km, deployment Q3 2026). Four additional tenders submitted.
+Priya: “So one.” She was not unkind — but direct. “We need to understand the risk we are taking as one of your early adopters. What do we get in return for that risk?”
+Krish’s response: “Priority pricing. Contractual SLAs that penalise us if we underperform. And the fact that your existing settlement bank [Meridian Bank] is our bank partner — which means you are not introducing a new financial counterparty into your operations.”
+Priya nodded at the bank point. This landed.
+Q4 (Suresh): “What is the per-vehicle number? Rough.”
+Our response: “In the range of $0.05–$0.07 per vehicle, all-in. Depends on corridor ADT — higher traffic means lower per-vehicle cost. We will model your specific corridors if you give us the ADT data.”
+Suresh: “Our five priority corridors average about 65,000 ADT.” (This data point was not previously available to us.)
+Q5 (Priya): “If we go with you for the first 5 corridors, what’s the timeline?”
+Our response: First corridor live in 6–9 months from contract. Subsequent corridors overlap — we estimate all 5 corridors live within 14–18 months if we start simultaneously.
+Priya: “That’s aggressive. What if the first one is delayed?” We acknowledged the risk and proposed milestone-linked deployment with go/no-go gates after the first corridor.
+Internal Assessment (Krish’s Notes)
+What went well: - Meridian Bank relationship is our strongest card. Priya and Suresh both reacted visibly to the “same bank, no new counterparty” point. - Live data from Sector 7 was credible. Showing actual weather-adjusted accuracy numbers rather than lab specs built trust. - SteelBridge extended the meeting by 90 minutes. They are serious.
+What concerns me: - “So one.” Priya’s comment about reference deployments. We need the Vantara corridor operational before SteelBridge signs. They will not be first-and-only. - SteelBridge’s Lakeview–Sahapur corridor is their largest and most complex — 48 km, 85K ADT, heavy fog season. If they insist on starting with Lakeview, we are taking a risk. - SteelBridge’s CFO (Vikram Nair) was not at this meeting. Priya is a strong internal advocate but she cannot sign a $7M+ annual contract. We need the CBO meeting with Nair to move this forward.
+Recommended next steps: 1. CBO to schedule meeting with SteelBridge leadership (Nair at minimum; Deshpande if possible) 2. Request ADT data for 5 priority corridors to build corridor-specific pricing 3. Propose starting with Vantara–Koregaon (31 km, 72K ADT) — similar in scale to our Vantara corridor under contract, lower risk than Lakeview–Sahapur 4. Do not commit to Lakeview as first corridor until Vantara reference is live
+PART III: PRIVATE EVALUATION RUBRIC
+For evaluators only — do not share with candidates.
+Scoring Overview
+A. Document Triage & Judgement (25 points)
+This is the most important category. Can the candidate distinguish signal from noise in a realistic business document dump?
+Document classification (what a strong candidate should recognise):
+Scoring:
+Red flags (automatic deductions): - Including Market Gamma fleet telematics data in a Market Alpha toll infrastructure briefing: -5 points - Including org chart or leadership appointment details in the briefing: -3 points - Missing SteelBridge’s leakage problem ($22–29M/year): -3 points - Missing the Meridian Bank structural advantage: -5 points
+B. Briefing Content & Accuracy (30 points)
+What must be in the briefing (essential elements):
+Accuracy check (deductions): - Wrong number cited (e.g., $320M vs. $320B, wrong ADT, invented figure): -3 per instance - Number from Doc 5 (Market Gamma) appearing in the briefing: -5 (wrong document entirely) - Pricing component detail (A/U/T/O breakdown) included: -2 (this is internal; CBO would never share the component breakdown) - Internal economics (WACC, IRR, gross margin targets) included: -5 (NEVER share externally; shows lack of commercial judgement)
+C. Communication Quality (20 points)
+Specific quality markers: - +2: Opens with a 3–5 line executive summary before any detail - +2: Has a clear “what to ask for” section at the end - +1: Uses a table or structured format for numbers - -2: Exceeds 2 pages - -2: Is under 1.5 pages (underdelivered) - -3: Uses corporate buzzwords without substance (“synergistic value proposition,” “unlock ecosystem potential”)
+D. LLM Usage & Workflow (15 points)
+Assessed from the secondary deliverable (prompts/workflow).
+Bonus indicators: - +2: Candidate explicitly fed only relevant documents to the LLM (not all 7) - +1: Candidate asked the LLM to fact-check its own output against source documents - +1: Candidate created a prompt template that could be reused for future briefings - -2: Candidate pasted all 7 docs in a single prompt without any triage
+E. Initiative & Extras (10 points)
+Scoring Thresholds
+What This Case Study Really Tests (Evaluator Notes)
+The surface task is “write a briefing.” The real test is layered:
+Layer 1 — Reading comprehension under time pressure. Seven documents totalling ~10,000 words. The candidate must read all of them quickly, classify them by relevance, and decide what to ignore. This is the daily reality of knowledge operations: you receive more information than you need and must filter ruthlessly.
+Layer 2 — Numbers discipline. The documents contain dozens of numbers. The briefing needs approximately 8–12 of them. Choosing the right numbers, presenting them in context, and not inventing new ones is a core competency for this role. Watch especially for: the leakage figure ($22–29M), the per-vehicle pricing range ($0.05–0.07), the ADT data point from Suresh (65K), and the Meridian Bank relationship (9/14 corridors).
+Layer 3 — Audience awareness. The CBO is not a technology person reading a research report. The CBO is a decision-maker walking into a meeting. The briefing must be structured as a preparation tool — situation, offer, numbers, asks — not as an information dump. Candidates who write research summaries instead of action briefings reveal that they think about information rather than decisions.
+Layer 4 — LLM as tool, not oracle. The secondary deliverable reveals whether the candidate uses the LLM as a power tool (directed, iterated, checked) or as a magic box (dump everything in, trust the output). The best candidates will: (a) triage documents themselves before feeding them to the LLM, (b) extract specific facts and numbers, (c) ask the LLM to draft but then edit and verify, (d) possibly create a reusable workflow. The worst candidates will paste all 7 documents in a single prompt and submit whatever comes out.
+Layer 5 — Commercial judgement. Two traps are embedded: - Doc 3 (pricing framework) contains internal economics data (WACC, IRR, gross margin targets) that must never appear in a partner-facing briefing. A candidate who includes these reveals a lack of commercial instinct. - Doc 3 also contains the A/U/T/O fee component breakdown, which is internal pricing architecture. A strong candidate includes the all-in per-vehicle fee but not the internal breakdown.
+Layer 6 — The “So one” problem. Document 7 contains Priya Ranganathan’s challenge: “So one” — referring to NovaPlatform’s single live deployment. A strong candidate will flag this in the briefing as a known objection and suggest how the CBO should handle it (acknowledge honestly, point to Vantara corridor under contract, emphasise SLA-backed commitment). A weak candidate either misses it or buries it.
+Administration Notes
+Distribution: Send all 7 documents to the candidate simultaneously. Do not label them as “relevant” or “noise.”
+Format: Provide as markdown files in a shared folder or as a single archive. Name them Document_1 through Document_7 with descriptive filenames (e.g., Document_1_Market_Alpha_MLFF_Research.md).
+Time: Start the clock when the candidate confirms receipt. 3 hours, hard deadline.
+Clarifying question: If the candidate emails a clarifying question, respond within 15 minutes. Good clarifying questions include: “Which SteelBridge corridors are the 5 priority ones?” (answer: not specified — that is part of the meeting ask), “Is the CBO meeting with Nair alone or with others?” (answer: expect Nair and possibly Deshpande). Bad clarifying questions: “Can I have more time?” (no), “Which documents are relevant?” (that is part of the test).
+Submission: Accept PDF, DOCX, or well-formatted markdown. Do not penalise format choice.
