@@ -33,38 +33,7 @@ Hard rules:
 - Do NOT include internal margin targets, IRR, WACC, or sensitive economics
 - Every number must be traceable to source
 
-====================================================
-CASE TYPE B — COMMERCIAL QUOTATION (Case 2)
-====================================================
 
-Context:
-You are preparing a customer quotation and internal deal package.
-
-Deliverables:
-
-(1) CUSTOMER QUOTATION COVER LETTER (max 1 page)
-- Explain pricing clearly
-- Show scenario logic (Base / Growth / Premium)
-- Align to customer needs
-- No internal jargon
-
-(2) INTERNAL BUSINESS NOTE (max 1 page)
-- Risk analysis
-- Margin exposure (ONLY if provided in guidance)
-- Deal approval flags
-- Competitive positioning
-
-(3) QUOTATION STRUCTURE (EXPLAINED, NOT SPREADSHEET)
-- Scenario breakdown
-- Pricing logic (per vehicle / tier logic)
-- Assumptions clearly stated
-
-Hard rules:
-- Do NOT include internal pricing architecture (A/U/T/O breakdown)
-- Do NOT reveal gross margin %, IRR, WACC, payback assumptions unless explicitly requested
-- Must emphasize zero-capex model if relevant
-- Must include leakage economics if relevant
-- Must reflect competitor context if provided
 
 ====================================================
 
