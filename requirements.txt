@@ -1,2 +1,10 @@
 python-docx 
 openai
+python-dotenv
+pydantic
+rich
+typer
+tqdm
+pandas
+jinja2
+pyyaml
